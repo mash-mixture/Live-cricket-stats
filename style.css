@@ -8,3 +8,12 @@ body{
     background-color: #202124;
     color: #bdc1c6;
 }
+
+.app-logo {
+    width: 100px;
+    display: flex;
+}
+
+.app-logo img {
+    width: 100%;
+}
