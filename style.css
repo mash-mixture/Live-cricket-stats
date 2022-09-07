@@ -17,10 +17,23 @@ h1,h2,h3,h4,h5{
 p, span,button,a{
     font-family: 'Amiko', sans-serif;
 }
+a{
+    cursor: pointer;
+}
 
 .app-header {
     display: flex;
     padding: 15px 20px;
     align-items: center;
     justify-content: space-between;
+}
+
+.navigation-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.app-navigation {
+    width: 60%;
 }
