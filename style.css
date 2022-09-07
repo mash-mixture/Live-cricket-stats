@@ -17,3 +17,12 @@ body{
 .app-logo img {
     width: 100%;
 }
+
+h1,h2,h3,h4,h5{
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+p, span{
+    font-family: 'Amiko', sans-serif;
+}
