@@ -6,7 +6,13 @@ const options = {
 	}
 };
 
-fetch('https://cricbuzz-cricket.p.rapidapi.com/matches/v1/live', options)
+function fetchRawData(){
+	fetch('https://cricbuzz-cricket.p.rapidapi.com/matches/v1/live', options)
 	.then(response => response.json())
 	.then(response => console.log(response))
 	.catch(err => console.error(err));
+}
+
+fetchRawData();
+
+
