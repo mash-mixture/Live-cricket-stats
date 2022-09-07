@@ -9,14 +9,8 @@ body{
     color: #bdc1c6;
 }
 
-.app-logo {
-    width: 100px;
-    display: flex;
-}
 
-.app-logo img {
-    width: 100%;
-}
+
 
 h1,h2,h3,h4,h5{
    
