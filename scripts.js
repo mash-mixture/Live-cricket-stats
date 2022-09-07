@@ -1,3 +1,8 @@
+//**** GLOBAL VARIABLES */
+
+
+
+
 const options = {
 	method: 'GET',
 	headers: {
