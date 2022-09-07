@@ -38,3 +38,14 @@ a{
 .app-navigation {
     width: 60%;
 }
+
+.app-footer {
+    position: fixed;
+    bottom: 0;
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
