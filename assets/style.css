@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #202124;
+    background-color: #161616;
     color: #bdc1c6;
 }
 
@@ -46,8 +46,18 @@ a{
     padding: 10px;
 }
 
+span.nav-item {
+    font-size: 14px;
+}
+
 
 .copyright {
     display: flex;
     justify-content: space-between;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+span.nav-item.active-item {
+    color: #d90066;
 }
