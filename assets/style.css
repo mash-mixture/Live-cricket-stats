@@ -61,3 +61,9 @@ span.nav-item {
 span.nav-item.active-item {
     color: #d90066;
 }
+
+.body-inner {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
