@@ -240,10 +240,11 @@ a.ext-link {
 }
 
 .single-live {
-    padding: 18px 12px;
+    padding: 18px 12px 22px;
     background: #161616;
     margin-bottom: 15px;
     border-radius: 10px;
+    position: relative;
 }
 
 p.vs {
@@ -261,6 +262,7 @@ p.vs {
     display: flex;
     justify-content: space-between;
     font-size: 15px;
+    align-items: center;
 }
 
 .pro-icon img {
@@ -353,6 +355,15 @@ p.team-name {
     align-items: center;
 }
 
+p.match-type {
+    position: absolute;
+    font-size: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    bottom: 5px;
+}
 
 
 
