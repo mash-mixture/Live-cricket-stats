@@ -9,6 +9,10 @@ body{
     color: #686c71;
 }
 
+img{
+    max-width: 100%;
+}
+
 h1,h2,h3,h4,h5{
    
     font-family: 'Poppins', sans-serif;
@@ -22,11 +26,14 @@ a{
     cursor: pointer;
 }
 
-.app-header {
+
+.app-header-inner {
     display: flex;
     padding: 15px 20px;
     align-items: center;
     justify-content: space-between;
+    max-width: 1220px;
+    margin: auto;
 }
 
 .nav-menu-desk{
@@ -72,7 +79,7 @@ span.nav-item.active-item {
 }
 
 .body-inner {
-    max-width: 1200px;
+    max-width: 1220px;
     margin: auto;
     padding: 0 15px;
     display: flex;
@@ -81,14 +88,14 @@ span.nav-item.active-item {
 }
 
 .sidebar.sidebar-left {
-    width: 27%;
+    width: 30%;
     background: #1e1e1e;
     padding: 10px;
     border-radius: 10px;
 }
 
 .main-sec.secondary {
-    width: 70%;
+    width: 68%;
 }
 .user-profile{
     width: 50px;
@@ -112,6 +119,11 @@ span.nav-item.active-item {
     min-height: 60px;
     border-radius: 5px;
     background: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 
 .format-grid {
@@ -122,7 +134,7 @@ span.nav-item.active-item {
 }
 
 .matches-formats {
-    padding: 15px;
+    padding: 30px 15px;
     background: #161616;
     border-radius: 10px;
 }
@@ -139,4 +151,87 @@ span.nav-item.active-item {
     background: transparent;
     border: none;
     text-indent: 15px;
+    width: calc(100% - 40px);
+    outline: none;
+}
+
+.live-logo h4 {
+    font-weight: 400;
+    font-size: 17px;
+    padding: 12px 15px 20px;
+}
+
+.app-logo h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.get-pro {
+    padding: 15px 10px;
+    background: linear-gradient(45deg, #3a5ae6, #3a5ee6);
+    border-radius: 5px;
+    position: relative;
+}
+
+.pro-inner {
+    display: flex;
+}
+
+.pro-icon {
+    width: 40px;
+    height: 40px;
+    background: #5876edfc;
+    border-radius: 40px;
+    margin-right: 12px;
+}
+
+h5.cric-match {
+    font-weight: 400;
+    padding-top: 3px;
+}
+
+p.live-now {
+    font-size: 12px;
+    color: #9eaff9;
+    margin-bottom: 5px;
+}
+
+a.pro-link {
+    font-size: 12px;
+    color: #46abc2;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a.ext-link {
+    color: #fff;
+    position: absolute;
+    top: 18px;
+    right: 10px;
+}
+
+.footer-inner {
+    max-width: 1220px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.format-text {
+    font-size: 11px;
+    text-align: center;
+}
+
+.format-icon {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 5px;
+    background: #2a2a2a;
+    border-radius: 35px;
+}
+
+.format-icon img {
+    filter: invert(100%) sepia(0%) saturate(7467%) hue-rotate(86deg) brightness(102%) contrast(102%);
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
 }
