@@ -362,3 +362,21 @@ p.team-name {
     50%{opacity: 0.5; transform: scale(1);}
     100%{opacity: 0; transform: scale(1.5);}
 }
+
+
+
+
+/*Responsive*/
+@media all and (max-width: 500px) {
+    .sidebar.sidebar-left {
+        width: 100%;
+    }
+    
+    .main-sec.secondary {
+        width: 100%;
+    }
+    
+    .body-inner {
+        flex-direction: column;
+    }
+}
