@@ -235,3 +235,41 @@ a.ext-link {
     height: 100%;
     object-fit: scale-down;
 }
+
+.single-live {
+    padding: 18px 12px;
+    background: #161616;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+p.vs {
+    text-align: center;
+    margin: 7px 0;
+}
+
+.live-team-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+p.live {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 15px;
+    background: #1e1e1e;
+    text-transform: uppercase;
+}
+
+span.live-dot {
+    width: 5px;
+    height: 5px;
+    background: #d9035e;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 5px;
+}
