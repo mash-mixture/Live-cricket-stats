@@ -16,6 +16,22 @@
 // getData();
 
 //todo 'https://unofficial-cricbuzz.p.rapidapi.com/matches/list?matchState='+currentTab+'
+
+
+
+const optionsTest = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '08aa1922e1mshaf887f0a134e795p18ad77jsn561a06fbcb0f',
+		'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
+	}
+};
+
+fetch('https://cricbuzz-cricket.p.rapidapi.com/mcenter/v1/41881/overs', optionsTest)
+	.then(response => response.json())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
+
 const options = {
 	method: 'GET',
 	headers: {
