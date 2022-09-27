@@ -387,6 +387,16 @@ p.match-type {
     overflow-y: hidden;
 }  
 
+.featured-matches {
+    padding: 15px;
+    border-radius: 10px;
+    background: #1e1e1e;
+}
+
+p.live span:nth-child(2) {
+    padding-top: 3px;
+}
+
 /*Secondary*/
 .section-full {
     width: 100%;
@@ -399,6 +409,17 @@ p.match-type {
     min-height: 350px;
     margin-bottom: 15px;
     border-radius: 10px;
+}
+
+.sec-head h4 {
+    font-weight: 400;
+    font-size: 17px;
+    padding: 12px 0px 15px;
+    color: #e1e1e1;
+}
+
+.main-sec.secondary p.live {
+    background: #161616;
 }
 
 
@@ -446,5 +467,10 @@ p.match-type {
     
     .body-inner {
         flex-direction: column;
+    }
+
+    .sidebar.sidebar-left{
+        position: initial;
+        height: auto;
     }
 }
