@@ -35,7 +35,28 @@ span.toss {
     font-size: 12px;
     display: block;
     text-align: center;
-    margin-top: -26px;
+    margin-top: 0px;
+}
+
+.menu-mobile {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #1e1e1e;
+    top: 0px;
+    right: 0;
+    display: none;
+}
+
+.mobile-menu-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 15px 15px;
+}
+
+.mobile-menu-inner .nav-item {
+    padding: 10px 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -349,7 +370,7 @@ span.live-dot:after {
 }
 
 span.team-name {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     color: #bbbbbb;
 }
@@ -449,6 +470,7 @@ p.live span:nth-child(2) {
 
 p.series-name {
     font-size: 12px;
+    text-align: center;
 }
 
 .match-detail-grid {
@@ -482,7 +504,7 @@ p.series-name {
     width: 40px;
     height: 40px;
     background: #161616;
-    border-radius: 5px;
+    border-radius: 40px;
     margin: auto;
     margin-bottom: 5px;
     overflow: hidden;
@@ -497,6 +519,21 @@ span.score {
 
 .scores-info {
     font-size: 15px;
+}
+
+.required-score {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+p.vs.sec-vs {
+    background: #161616;
+}
+
+.featured-inner {
+    padding: 15px;
+    background: #161616;
+    border-radius: 10px;
 }
 
 
@@ -533,6 +570,13 @@ span.score {
 
 
 /*Responsive*/
+@media all and (max-width:992px){
+    .app-navigation {
+        width: 75%;
+    }
+}
+
+
 @media all and (max-width: 500px) {
     .sidebar.sidebar-left {
         width: 100%;
