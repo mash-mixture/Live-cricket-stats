@@ -27,6 +27,17 @@ a{
     cursor: pointer;
 }
 
+.text-center{
+    text-align: center;
+}
+
+span.toss {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    margin-top: -26px;
+}
+
 
 .app-header-inner {
     display: flex;
