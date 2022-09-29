@@ -634,4 +634,8 @@ p.vs.sec-vs {
         padding: 0;
         margin-top: 20px;
     }
+
+    .mini-stats {
+        padding: 20px 0 10px;
+    }
 }
