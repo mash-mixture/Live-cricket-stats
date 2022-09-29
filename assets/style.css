@@ -629,4 +629,9 @@ p.vs.sec-vs {
     .navigation-inner {
         justify-content: flex-end;
     }
+
+    .section-full {
+        padding: 0;
+        margin-top: 20px;
+    }
 }
