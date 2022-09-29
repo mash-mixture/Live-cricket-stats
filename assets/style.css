@@ -621,4 +621,12 @@ p.vs.sec-vs {
         position: initial;
         height: auto;
     }
+
+    .nav-menu-desk {
+        display: none;
+    }
+    
+    .navigation-inner {
+        justify-content: flex-end;
+    }
 }
