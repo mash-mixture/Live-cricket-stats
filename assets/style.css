@@ -536,6 +536,33 @@ p.vs.sec-vs {
     border-radius: 10px;
 }
 
+.mini-stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 10px;
+    margin-top: 20px;
+    border-top: 1px solid #202020;
+}
+
+.team-mini-stat > p {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #ddd;
+}
+
+.team-mini-stat ul {
+    list-style: none;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+    color: #ddd;
+}
+
+.team-mini-stat ul span {
+    color: #a5a5a5;
+}
+
 
 
 /*Animations*/
