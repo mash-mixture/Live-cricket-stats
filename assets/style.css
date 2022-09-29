@@ -546,17 +546,19 @@ p.vs.sec-vs {
 
 .team-mini-stat > p {
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 400;
     font-family: 'Poppins';
     color: #ddd;
+    letter-spacing: 0.5px;
 }
 
 .team-mini-stat ul {
     list-style: none;
     font-family: 'Poppins';
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 400;
     color: #ddd;
+    letter-spacing: 0.5px;
 }
 
 .team-mini-stat ul span {
