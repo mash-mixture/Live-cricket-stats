@@ -572,6 +572,10 @@ p.vs.sec-vs {
     border-radius: 5px;
 }
 
+p.result {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
 
 
 /*Animations*/
