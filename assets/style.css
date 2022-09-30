@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #161616;
+    background-color: #22272e;
     /* color: #686c71; */
     color: #a5a5a5;
 }
@@ -102,7 +102,7 @@ span.nav-item {
     position: sticky;
     top: 0;
     width: 100%;
-    background: #161616;
+    background: #22272e;
     z-index: 1;
 }
 
@@ -130,7 +130,7 @@ span.nav-item.active-item {
 
 .sidebar.sidebar-left {
     width: 30%;
-    background: #1a1a1c;
+    background: #373e47;
     padding: 10px;
     border-radius: 10px;
     /* height: calc(100vh - 80px); */
@@ -179,7 +179,7 @@ span.nav-item.active-item {
 
 .matches-formats {
     padding: 30px 15px;
-    background: #161616;
+    background: #22272e;
     border-radius: 10px;
 }
 
@@ -223,6 +223,7 @@ span.nav-item.active-item {
 .get-pro {
     padding: 15px 10px;
     background: linear-gradient(45deg, #3a5ae6, #3a5ee6);
+    background: linear-gradient(45deg, #ff75af21, #388fff2e);
     border-radius: 5px;
     position: relative;
 }
@@ -292,7 +293,7 @@ a.ext-link {
 
 .single-live {
     padding: 18px 12px 22px;
-    background: #161616;
+    background: #22272e;
     margin-bottom: 15px;
     border-radius: 10px;
     position: relative;
@@ -429,7 +430,7 @@ p.match-type {
 .section-outer {
     padding: 15px;
     border-radius: 10px;
-    background: #1a1a1c;
+    background: #373e47;
 }
 
 p.live span:nth-child(2) {
@@ -531,7 +532,7 @@ p.vs.sec-vs {
 
 .featured-inner {
     padding: 15px;
-    background: #161616;
+    background: #22272e;
     border-radius: 10px;
 }
 
@@ -562,6 +563,13 @@ p.vs.sec-vs {
 
 .team-mini-stat ul span {
     color: #a5a5a5;
+}
+
+.recent-match-s {
+    padding: 20px;
+    margin: 10px;
+    background: #292e36;
+    border-radius: 5px;
 }
 
 
