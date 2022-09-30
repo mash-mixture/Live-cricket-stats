@@ -130,7 +130,7 @@ span.nav-item.active-item {
 
 .sidebar.sidebar-left {
     width: 30%;
-    background: #1e1e1e;
+    background: #1a1a1c;
     padding: 10px;
     border-radius: 10px;
     /* height: calc(100vh - 80px); */
@@ -429,7 +429,7 @@ p.match-type {
 .section-outer {
     padding: 15px;
     border-radius: 10px;
-    background: #1e1e1e;
+    background: #1a1a1c;
 }
 
 p.live span:nth-child(2) {
