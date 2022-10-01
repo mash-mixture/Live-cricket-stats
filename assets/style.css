@@ -598,6 +598,14 @@ p.series-detail {
     font-size: 12px;
 }
 
+.upcoming-mactches {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
 /*Animations*/
 @keyframes live {
     0%{transform: scale(0.5);}
@@ -699,5 +707,20 @@ p.series-detail {
 
     .recent-match-s{
         padding: 14px;
+    }
+
+    .match-detail-grid{
+        padding-bottom: 30px;
+    }
+    
+    
+    .copyright {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .copyright p {
+        margin-bottom: 5px;
     }
 }
