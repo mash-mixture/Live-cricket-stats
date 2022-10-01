@@ -224,6 +224,8 @@ span.nav-item.active-item {
     padding: 15px 10px;
     background: linear-gradient(45deg, #3a5ae6, #3a5ee6);
     background: linear-gradient(45deg, #ff75af21, #388fff2e);
+    background: linear-gradient(45deg, #00527840, #00e8ff26);
+    background: linear-gradient(45deg, #3a5ae6, #6081ff);
     border-radius: 5px;
     position: relative;
 }
@@ -236,6 +238,7 @@ span.nav-item.active-item {
     width: 40px;
     height: 40px;
     background: #5876edfc;
+    background: #46a8b23b;
     border-radius: 40px;
     margin-right: 12px;
     padding: 7px;
@@ -577,6 +580,16 @@ p.result {
     margin-bottom: 20px;
 }
 
+.slick-next:before, .slick-prev:before {
+    color: #383d44  !important;
+}
+
+.slick-prev {
+    left: -15px;
+}
+.slick-next {
+    right: -15px;
+}
 
 /*Animations*/
 @keyframes live {
