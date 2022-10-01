@@ -570,6 +570,7 @@ p.vs.sec-vs {
 
 .recent-match-s {
     padding: 20px;
+    padding-bottom: 12px;
     margin: 10px;
     background: #292e36;
     border-radius: 5px;
@@ -589,6 +590,12 @@ p.result {
 }
 .slick-next {
     right: -15px;
+}
+
+p.series-detail {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
 }
 
 /*Animations*/
