@@ -693,4 +693,11 @@ p.series-detail {
     .team-intro {
         margin-bottom: 5px;
     }
+    .team-mini-stat > p , .team-mini-stat ul{
+        font-size: 12px;
+    }
+
+    .recent-match-s{
+        padding: 14px;
+    }
 }
