@@ -634,12 +634,24 @@ p.series-detail {
     .app-navigation {
         width: 75%;
     }
+
+    .format-grid {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    .pro-icon{
+        display: none;
+    }
 }
 
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 767px) {
     .sidebar.sidebar-left {
         width: 100%;
+    }
+
+    .format-grid {
+        grid-template-columns: repeat(3 , 1fr);
     }
     
     .main-sec.secondary {
@@ -670,5 +682,15 @@ p.series-detail {
 
     .mini-stats {
         padding: 20px 0 10px;
+    }
+
+    .section-outer{
+        padding: 10px;
+    }
+    
+    .fet-team-data {flex-direction: column !important;}
+    
+    .team-intro {
+        margin-bottom: 5px;
     }
 }
